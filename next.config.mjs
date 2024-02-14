@@ -1,3 +1,4 @@
+import rehypePrism from "@mapbox/rehype-prism";
 import nextMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
 
@@ -8,7 +9,7 @@ const withMDX = nextMDX({
     // as the package is ESM only
     // https://github.com/remarkjs/remark-gfm#install
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
+    rehypePlugins: [rehypePrism],
     // If you use `MDXProvider`, uncomment the following line.
     // providerImportSource: "@mdx-js/react",
   },
