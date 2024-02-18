@@ -51,8 +51,8 @@
   "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.content.pageFolders": [
     {
-      "title": "my-mdx-page",
-      "path": "[[workspace]]/app/my-mdx-page"
+      "title": "mdx-page",
+      "path": "[[workspace]]/app/(pages)"
     }
   ]
 }
